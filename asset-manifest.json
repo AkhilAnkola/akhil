@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/akhil/static/css/main.797c1bde.chunk.css",
+    "main.css": "/akhil/static/css/main.01f1704b.chunk.css",
     "main.js": "/akhil/static/js/main.99e2516c.chunk.js",
     "main.js.map": "/akhil/static/js/main.99e2516c.chunk.js.map",
     "runtime-main.js": "/akhil/static/js/runtime-main.cd34350f.js",
@@ -9,10 +9,10 @@
     "static/js/2.a705376d.chunk.js": "/akhil/static/js/2.a705376d.chunk.js",
     "static/js/2.a705376d.chunk.js.map": "/akhil/static/js/2.a705376d.chunk.js.map",
     "index.html": "/akhil/index.html",
-    "precache-manifest.e324d1563b2266ffbaf93674fa3de580.js": "/akhil/precache-manifest.e324d1563b2266ffbaf93674fa3de580.js",
+    "precache-manifest.d400dc4507424aa49f9bacd45a6ee81e.js": "/akhil/precache-manifest.d400dc4507424aa49f9bacd45a6ee81e.js",
     "service-worker.js": "/akhil/service-worker.js",
     "static/css/2.75c4ecca.chunk.css.map": "/akhil/static/css/2.75c4ecca.chunk.css.map",
-    "static/css/main.797c1bde.chunk.css.map": "/akhil/static/css/main.797c1bde.chunk.css.map",
+    "static/css/main.01f1704b.chunk.css.map": "/akhil/static/css/main.01f1704b.chunk.css.map",
     "static/js/2.a705376d.chunk.js.LICENSE.txt": "/akhil/static/js/2.a705376d.chunk.js.LICENSE.txt",
     "static/media/about.png": "/akhil/static/media/about.9a013de9.png",
     "static/media/app_development.png": "/akhil/static/media/app_development.4edfe8c9.png",
@@ -44,7 +44,7 @@
     "static/js/runtime-main.cd34350f.js",
     "static/css/2.75c4ecca.chunk.css",
     "static/js/2.a705376d.chunk.js",
-    "static/css/main.797c1bde.chunk.css",
+    "static/css/main.01f1704b.chunk.css",
     "static/js/main.99e2516c.chunk.js"
   ]
 }
