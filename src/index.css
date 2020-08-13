@@ -6,8 +6,245 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
+.abc{
+  
+}
+/*code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}*/
+.brand-name{
+  color: cornflowerblue;
+}
+#content{
+  display: flex;
+  justify-content: center;
+  flex: column;
+  flex-direction: column;
+}
+.homebutton{
+  border-color: teal;
+  border: solid 2px blue;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 1.3rem;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+}
+.homebutton:hover{
+  background-color: darkblue;
+  color: white;
+  border: solid 2px blue;
+  transition: .5s;
+  text-align: center;
+  vertical-align: middle;
+}
+.animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+
+
+
+/*Crads*/
+.maincards{
+  max-width: 100%;
+  align-items: center;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.cards{
+  margin: 30px;
+  display: inline-block;
+  justify-content: space-around;
+  align-items: center;
+}
+.card{
+  height: 400px;
+  width: 250px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.card .cardimg{
+  height: 200px;
+  width: 100%;
+}
+.card .cardimg img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.cardtext{
+  padding-top: 20px;
+  padding: 10px;
+}
+.cardlink a{
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 30px;
+  border: 2px solid #0000b9d3;
+  color: #0000b9d3;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+.cardlink a:hover{
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 30px;
+  background-color: #0000b9d3;
+  border: 2px solid #0000b9d3;
+  color: white;
+  align-items: center;
+  text-align: center;
+  transition: .5s;
+}
+
+
+/*Contact*/
+
+form {
+  max-width: 420px;
+  margin: 50px auto;
+}
+.form_heading
+{
+  font-family: Helvetica, Arial, sans-serif;
+  color: #3882e2;
+  text-align: center;
+  size: 2em;
+}
+.feedback-input {
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+ /* border: 2px solid #cc6666;*/
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  /*box-sizing: border-box;*/
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid #3882e2;
+}
+
+form textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+
+.seb_rese_button
+{
+  align-items: center;
+}
+
+
+[type="submit"] {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  width: 40%;
+  background: white;
+  border: 2px solid #3882e2;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #3882e2;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  margin-right: 40px;
+  font-weight: 700;
+}
+[type="submit"]:hover {
+  background: #3882e2;
+  color: white;
+}
+
+[type="reset"] {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  width: 40%;
+  background: white;
+  border: 2px solid #3882e2;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #3882e2;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  margin-left: 40px;
+  font-weight: 700;
+}
+[type="reset"]:hover {
+  background: #3882e2;
+  color: white;
+}
+@media only screen and (max-width: 780px)
+{
+  .abc{
+    height: 80vh;
+  }
+}
+@media only screen and (max-width: 480px)
+{
+
+
+  .abc{
+    height: 80vh;
+  }
+
+
+  form {
+    max-width: 320px;
+    margin: 50px auto;
+  }
+  [type="submit"]{
+    font-size: 14px;
+    margin-right: 20px;
+  }
+  [type="reset"]{
+    font-size: 14px;
+    margin-left: 40px;
+  }
+}
+
+
+/*Footer*/
+.footer{
+  text-align: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  margin-top: 80px;
+  /*background-color: #f1f1f1;*/
+}
+.footer a{
+  margin-left: 10px;
 }
