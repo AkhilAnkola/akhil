@@ -15,12 +15,12 @@ const App = () => {
         <>
             <Newbar />
             <Switch>
-                <Route exact path="/Home" component={Home} />
+                <Route exact path="/" component={Home} />
                 <Route exact path="/About" component={About} />
                 <Route exact path="/Service" component={Service} />
                 <Route exact path="/Work" component={Work} />
                 <Route exact path="/Contact" component={Contact} />
-                <Redirect to="/Home"/>
+                <Redirect to="/"/>
             </Switch>
             <Footer/>
         </>
